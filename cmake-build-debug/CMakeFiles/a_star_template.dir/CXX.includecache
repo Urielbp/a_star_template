@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ubp/CLionProjects/a star template/AStar.cpp
+AStar.h
+/Users/ubp/CLionProjects/a star template/AStar.h
+
+/Users/ubp/CLionProjects/a star template/AStar.h
+
+/Users/ubp/CLionProjects/a star template/main.cpp
+iostream
+-
+AStar.h
+/Users/ubp/CLionProjects/a star template/AStar.h
+
