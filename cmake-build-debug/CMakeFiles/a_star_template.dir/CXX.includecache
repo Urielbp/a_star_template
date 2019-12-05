@@ -9,8 +9,34 @@
 /Users/ubp/CLionProjects/a star template/AStar.cpp
 AStar.h
 /Users/ubp/CLionProjects/a star template/AStar.h
+State.h
+/Users/ubp/CLionProjects/a star template/State.h
+queue
+-
+HeapElement.h
+/Users/ubp/CLionProjects/a star template/HeapElement.h
 
 /Users/ubp/CLionProjects/a star template/AStar.h
+queue
+-
+vector
+-
+HeapElement.h
+/Users/ubp/CLionProjects/a star template/HeapElement.h
+State.h
+/Users/ubp/CLionProjects/a star template/State.h
+
+/Users/ubp/CLionProjects/a star template/HeapElement.cpp
+HeapElement.h
+/Users/ubp/CLionProjects/a star template/HeapElement.h
+
+/Users/ubp/CLionProjects/a star template/HeapElement.h
+State.h
+/Users/ubp/CLionProjects/a star template/State.h
+
+/Users/ubp/CLionProjects/a star template/State.h
+vector
+-
 
 /Users/ubp/CLionProjects/a star template/main.cpp
 iostream

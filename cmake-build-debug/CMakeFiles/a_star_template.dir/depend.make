@@ -3,7 +3,18 @@
 
 CMakeFiles/a_star_template.dir/AStar.cpp.o: ../AStar.cpp
 CMakeFiles/a_star_template.dir/AStar.cpp.o: ../AStar.h
+CMakeFiles/a_star_template.dir/AStar.cpp.o: ../HeapElement.h
+CMakeFiles/a_star_template.dir/AStar.cpp.o: ../State.h
+
+CMakeFiles/a_star_template.dir/HeapElement.cpp.o: ../HeapElement.cpp
+CMakeFiles/a_star_template.dir/HeapElement.cpp.o: ../HeapElement.h
+CMakeFiles/a_star_template.dir/HeapElement.cpp.o: ../State.h
+
+CMakeFiles/a_star_template.dir/State.cpp.o: ../State.cpp
+CMakeFiles/a_star_template.dir/State.cpp.o: ../State.h
 
 CMakeFiles/a_star_template.dir/main.cpp.o: ../AStar.h
+CMakeFiles/a_star_template.dir/main.cpp.o: ../HeapElement.h
+CMakeFiles/a_star_template.dir/main.cpp.o: ../State.h
 CMakeFiles/a_star_template.dir/main.cpp.o: ../main.cpp
 

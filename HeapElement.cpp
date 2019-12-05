@@ -3,3 +3,7 @@
 //
 
 #include "HeapElement.h"
+
+bool operator>(const HeapElement &l, const HeapElement &r) {
+    return l.key > r.key;
+}

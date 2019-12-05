@@ -7,20 +7,19 @@
 
 
 #include <queue>
+#include <vector>
 #include "HeapElement.h"
 #include "State.h"
 
 class AStar {
-    bool alreadyInClosed = false, alreadyInOpen = false;
-    State *initialState, **finalStates, *outputState;
-    std::priority_queue<HeapElement, std::vector<HeapElement>, std::greater<>> open;
-    State **closed;
-    HeapElement auxHeap, aux2Heap;
-    State *auxState;
+    State initialState, outputState;
+    std::vector<State> finalStates;
+    std::priority_queue<HeapElement, std::vector<HeapElement>, std::greater<HeapElement>> open;
+    std::vector<State> closed;
+
 public:
-    int myVal;
-    AStar();
     int run();
+    std::vector<State> solution;
 };
 
 
